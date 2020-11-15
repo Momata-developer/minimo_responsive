@@ -1,0 +1,122 @@
+/* ---responsive---*/
+
+/* Extra small devices (phones, 600px and down) */
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 991.98) and (min-width: 768px) {
+nav ul li a{
+	font-size: 14px;
+}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767.98) and (min-width: 576px) {
+	nav ul li a{
+	font-size: 14px;
+}
+   nav ul li {
+	padding: 0 0 0 20px;
+}
+p{
+   font-size: 14px;
+   text-align: justify;
+}
+.sign_up form input [type=email]{
+   border: none;
+   background: none;
+   text-align: center;
+   font-size: 15px;
+   margin-top:30px;
+   margin-bottom: 10px;
+   margin-right: 0px;
+   outline: none;
+}
+
+}
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 575.98px)  {
+	nav ul li a{
+	font-size: 14px;
+}
+   nav ul li {
+	padding: 0 0 0 20px;
+}
+   nav{
+   	display: none;
+   }
+   .gallary_box{
+      width: 90%;
+      padding: 10px 0px;
+      padding-right: 10px;
+      margin-right:10px;
+      margin: 0 20px;
+   }
+   
+   .gallary_box:last child{
+      margin-right: 0px!important;
+      margin-left: 10px;
+   }
+   .gallary_box h2{
+      font-size: 16px;
+   }
+   .gallary_box p{
+      font-size: 14px;
+      text-align: justify;
+   }
+   .gallary_box span{
+      font-size: 16px;
+   }
+   
+   .load button{
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #565555;
+   }
+   .footer_menu ul li a{
+      font-size: 14px;
+   }
+   .social_menu ul li a{
+      font-size: 14px;
+   }
+   .button{
+   	 width: 4%;
+       float: right;
+   }
+   .container{
+      width: 95%;
+      margin: 0 auto;
+
+   }
+
+  .article_1{
+     padding: 0px 30px;
+     padding-top: 20px;}
+  .article_1 h2{
+   font-size: 18px;
+  }
+  .article_1 span{
+   font-size: 16px;
+  }
+ .article_1 p{
+   font-size: 14px;
+   text-align: justify;
+ }
+ section article p{
+   margin-bottom: 5px;
+ }
+}
+@media only screen and (min-width: 576px){
+.button
+    {display:none;}
+ .gallary_box p
+    {font-size: 14px;
+     text-align: justify;
+
+   }
+
+}
